@@ -28,17 +28,22 @@ nav{
     display: flex;
     
 }
+.container{
+    width: 90%;
+    margin: auto;
+}
 .header{
     background-color: rgba(229, 84, 115, 0.10);
     width: 1920px;
 height: 850px;
 flex-shrink: 0;
 }
-.banner{
+.banner {
     padding: 50px 240px;
     display: flex;
     align-items: center;
-}
+    background-color: rgba(229, 84, 115, 0.10);
+  }
 .banner .profile-pic{
     width: 500px;
 }
@@ -50,6 +55,7 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 margin-bottom: 0;
+
 }
 .btn-primary{
     color: #FFF;
@@ -59,6 +65,8 @@ font-weight: 700;
 border-radius: 8px;
 background: #E55473;
 font-size: normal;
+padding: 20px 2rem;
+border: none;
 }
 .banner-description{
     display: flex;
@@ -92,12 +100,14 @@ background: #FFF;
     width: 65%;
     margin: 0 auto;
 }
-#tree-color-1{
+#tree-color-1 {
     border-radius: 300px 300px 0px 0px;
-background-color: rgba(167, 33, 98, 0.15);
-width: 464px;
-height: 538px;
-flex-shrink: 0;
+    background-color: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    display: flex;
+    flex-shrink: 0;
+    text-align: center;
 }
 #tree-color-2{
     border-radius: 300px 300px 0px 0px;
@@ -105,12 +115,16 @@ flex-shrink: 0;
 width: 464px;
 height: 538px;
 flex-shrink: 0;
+display: flex;
+text-align: center;
 }
 #tree-color-3{
     border-radius: 300px 300px 0px 0px;
 background-color: rgba(71, 125, 17, 0.15);
 width: 464px;
 height: 538px;
+display: flex;
+text-align: center;
 flex-shrink: 0;
 }
 
