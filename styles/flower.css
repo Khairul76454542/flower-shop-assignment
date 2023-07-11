@@ -2,12 +2,37 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.section-title{
+    background: #FFF;
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: normal;
+}
+.section-desciption{
+    display: flex;
+    padding: 1px 650px 0px 650px;
+width: 594px;
+flex-direction: column;
+flex-shrink: 0;
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
 nav{
     display: flex;
     
 }
 .header{
     background-color: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+height: 850px;
+flex-shrink: 0;
 }
 .banner{
     padding: 50px 240px;
@@ -17,6 +42,15 @@ nav{
 .banner .profile-pic{
     width: 500px;
 }
+.banner-title{
+    color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 0;
+}
 .btn-primary{
     color: #FFF;
 font-family: Lato;
@@ -25,4 +59,61 @@ font-weight: 700;
 border-radius: 8px;
 background: #E55473;
 font-size: normal;
+}
+.banner-description{
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+.banner-content{
+    
+}
+#our-featured-flowers-description{
+    
+}
+/*tree related styles*/
+.tree-container{
+    display: flex;
+    gap: 24px;
+    padding: 50px 24px 200px 240px;
+    width: 464px;
+height: 538px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+width: 1920px;
+height: 4867px;
+background: #FFF;
+}
+#tree-color-1{
+    border-radius: 300px 300px 0px 0px;
+background-color: rgba(167, 33, 98, 0.15);
+width: 464px;
+height: 538px;
+flex-shrink: 0;
+}
+#tree-color-2{
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+width: 464px;
+height: 538px;
+flex-shrink: 0;
+}
+#tree-color-3{
+    border-radius: 300px 300px 0px 0px;
+background-color: rgba(71, 125, 17, 0.15);
+width: 464px;
+height: 538px;
+flex-shrink: 0;
+}
+
+main section{
+    margin-top: 130px;
+}
+.tree-container-2{
+    display: flex;
+    padding: 0px 240px 50px 240px;
+}
+.tree-2{
+    padding-left: 24px;
 }
