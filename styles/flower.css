@@ -82,8 +82,15 @@ height: 538px;
 flex-shrink: 0;
 border-radius: 300px 300px 0px 0px;
 width: 1920px;
-height: 4867px;
+/* height: 4867px; */
 background: #FFF;
+}
+
+.tree-title{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
 }
 #tree-color-1{
     border-radius: 300px 300px 0px 0px;
@@ -112,8 +119,60 @@ main section{
 }
 .tree-container-2{
     display: flex;
-    padding: 0px 240px 50px 240px;
+    padding: 50px 240px 50px 240px;
+    justify-content: space-between;
 }
-.tree-2{
-    padding-left: 24px;
+.tree-container{
+    padding: 50px 250px 0px 250px;
+    
+}
+.banner-2{
+    background-image: url('');
+}
+.contact input, textarea{
+    display: flex;
+    margin: 24px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: lightgray 0px -203.444px / 100% 213.755% no-repeat;
+
+}
+.footer-column{
+    width: 350px;
+    height: 64px;
+    flex-shrink: 0;
+    margin:0 auto;
+}
+.banner-title-2{
+    color: #E55473;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.banner-3{
+    width: 1922px;
+height: 449px;
+flex-shrink: 0;
+background: #111010;
+}
+.banner-text{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.banner-description-footer{
+    color: #FFF;
+}
+.banner-4{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
