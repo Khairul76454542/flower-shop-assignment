@@ -151,11 +151,51 @@ main section{
     background: lightgray 0px -203.444px / 100% 213.755% no-repeat;
 
 }
-.footer-column{
+/* .footer-column{
     width: 350px;
     height: 64px;
     flex-shrink: 0;
     margin:0 auto;
+} */
+form.content {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+input.email-field {
+    width: 40%;
+    border: none;
+    padding: 16px 10px;
+}
+h3.news-title {
+    font-size: 32px;
+    text-align: center;
+}
+.highlight-shop{
+    color: #fff;
+}
+.highlight-off{
+    color: #E55473;
+}
+p.news-desciption {
+    text-align: center;
+}
+input.subscribe-btn {
+    padding: 13px 10px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #E55473;
+}
+.newsletter{
+    background-image: url('../flower-asset/Rectangle\ 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 3rem 0;
 }
 .banner-title-2{
     color: #E55473;
